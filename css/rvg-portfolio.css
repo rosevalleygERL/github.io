@@ -51,8 +51,8 @@ body, html {
   Navigation
   =======================================*/
 /*trying to get the nav to indent on the right*/
-.nav {
-	margin-right: 10%;
+  .nav {
+	margin-right: 200px
 }
 
 .navbar {
@@ -69,7 +69,7 @@ body, html {
 	font-size: 2em;
     color: #a4a402;
 	/*trying to get the nav to indent on the left*/
-	margin-left: 10%;
+	margin-left: 200px;
 	text-decoration: none !important;
 }
 
@@ -83,25 +83,6 @@ body, html {
 	font-family: 'Oxygen Mono', monospace;
 }
 
-.collapse {
-	background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-}
-
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-}
-	
 /*=======================================
   Scroll To Top
   =======================================*/
@@ -132,15 +113,8 @@ body, html {
 	
 .card {
 	background-color: #f5fbef;
+	width: 22rem !important;
 	margin-bottom: 30px;
-}
-
-.card-body {
-	text-align: center;
-}
-
-.card-text {
-	text-align: left;
 }
 
 .card-row-1 {
@@ -157,18 +131,9 @@ body, html {
 	text-align: center;
 }
 
-.container {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 /*changing font colors in site*/
 .green {
 	color: #a4a402;
-}
-
-img {
-	padding-bottom: 15px;
 }
 
 .mustard {
@@ -186,10 +151,6 @@ img {
 
 #ping a:hover {
 	color: #5b2333;
-}
-	
-#planning {
-	text-align: none;
 }
 	
 #portfolio {
@@ -234,10 +195,12 @@ footer {
   Font Awesome Icons - Found in Cards
   =======================================*/
 #proficient .fa-3x {
+	margin-left: 136px;
 	color: #5b2333;
 }
 
 #production .fa-3x {
+	margin-left: 124px;
 	color: #5b2333;
 }
 
@@ -304,60 +267,17 @@ footer {
 /*=======================================
   @MEDIA QUERIES
   =======================================*/
-@media (max-width: 320px) {
+@media all and (max-width:640px) and (min-width:381px) {
 }
 
-@media (max-width: 375px) {
-	.hero-text h2 {
-		font-size: 16px;
-	}
-	.quote-source {
-		font-size: 12px;
-	}
-}
-  
-@media (max-width: 411px) {
-	.nav-brand-name {
-		font-size: 24px;
-	}
-	
-	.navbar-brand {
-		font-size: 12px;
-	}
-}  
-  
-@media (max-width: 768px) and (min-width: 376px) {
-	.hero-text h2 {
-		font-size: 20px;
-	}
-	.quote-source {
-		font-size: 14px;
-	}
-}
-	
-@media (max-width: 992px) {
-	.col-sm-4 {
-		min-width: 200px;
-		padding: 0px 4px;
-	}
-	
-	.card {
-		width: 100%;
-	}
+@media all and (max-width:381px) and (min-width:200px) {
 }
 
-@media (max-width: 1200px) {
-	.nav-brand-name {
-		margin: 0%;
-	}
-	
-	.nav {
-		margin: 0%;
-	}
+@media (min-width: 768px) {
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 992px) {
 }
 
-
-
+@media (min-width: 1200px) {
+}
